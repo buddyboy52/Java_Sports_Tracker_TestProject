@@ -1,0 +1,16 @@
+Billy Bob is a football player.
+Here are some statistics:
+Win percent: 83.33%
+Average touchdowns: 1.6666666666666667
+Average rushing yards: 103.33333333333333
+
+-------------
+Billy Bob
+Sport: Football
+Team: New-England Patiots
+Age: 20
+Weight (lbs): 250
+Games played: 6
+Games won: 5
+Touchdowns: 10
+Rushing yards: 620
