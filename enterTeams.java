@@ -12,7 +12,7 @@ public class enterTeams extends GUI
 	
 	// ----------- Create Objects ----------- \\
 	static GUI guiFrame = new GUI();
-	static writeTeams writeTheTeam = new writeTeams();
+	static writeTeams writeTheTeams = new writeTeams();
 		
 	private static JFrame frame = new JFrame();
 		
