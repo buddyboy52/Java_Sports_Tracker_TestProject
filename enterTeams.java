@@ -12,7 +12,7 @@ public class enterTeams extends GUI
 	
 	// ----------- Create Objects ----------- \\
 	static GUI guiFrame = new GUI();
-	static writePlayers writeTeam = new writePlayers();
+	static writeTeams writeTheTeam = new writeTeams();
 		
 	private static JFrame frame = new JFrame();
 		
@@ -95,7 +95,7 @@ public class enterTeams extends GUI
 		lblTeamRank.setBounds(120, 198, 150, 20);
 		lblTeamRank.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblTeamPlayers.setText("Enter the number of players on team:");
+		lblTeamPlayers.setText("Enter # of players:");
 		lblTeamPlayers.setForeground(Color.WHITE);
 		lblTeamPlayers.setBounds(120, 248, 150, 20);
 		lblTeamPlayers.setHorizontalAlignment(SwingConstants.RIGHT);
@@ -105,22 +105,22 @@ public class enterTeams extends GUI
 		lblTeamName.setBounds(120, 298, 150, 20);
 		lblTeamName.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblGamesPlayed.setText("Enter number of games played:");
+		lblGamesPlayed.setText("Enter # of games played:");
 		lblGamesPlayed.setForeground(Color.WHITE);
 		lblGamesPlayed.setBounds(120, 348, 150, 20);
 		lblGamesPlayed.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblGamesWon.setText("Enter Games played:");
+		lblGamesWon.setText("Enter # of games won:");
 		lblGamesWon.setForeground(Color.WHITE);
 		lblGamesWon.setBounds(120, 398, 150, 20);
 		lblGamesWon.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblTouchdowns.setText("Enter Games Won");
+		lblTouchdowns.setText("Enter # of touchdowns:");
 		lblTouchdowns.setForeground(Color.WHITE);
 		lblTouchdowns.setBounds(120, 448, 150, 20);
 		lblTouchdowns.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblRushingYds.setText("Enter # of touchdowns:");
+		lblRushingYds.setText("Enter # of rushing yards:");
 		lblRushingYds.setForeground(Color.WHITE);
 		lblRushingYds.setBounds(120, 498, 150, 20);
 		lblRushingYds.setHorizontalAlignment(SwingConstants.RIGHT);
@@ -151,7 +151,7 @@ public class enterTeams extends GUI
 					
 					Teams teamInfo = new Teams(teamRank, teamPlayers, teamName, gamesPlayed, gamesWon, touchdowns, rushingYards);
 					
-					writePlayers.writeFile(teamInfo);
+					writeTheTeams.writeFile(teamInfo);
 
 					txtTeamRank.setText("");
 					txtTeamPlayers.setText("");

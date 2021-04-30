@@ -101,32 +101,32 @@ public class enterPlayers extends GUI{
 
 		
 		// ---------------- Labels Customization ---------------- \\
-		lblFirst.setText("Enter players first name: ");
+		lblFirst.setText("Enter players first name:");
 		lblFirst.setForeground(Color.WHITE);
 		lblFirst.setBounds(120, 198, 150, 20);
 		lblFirst.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblLast.setText("Enter players last name: ");
+		lblLast.setText("Enter players last name:");
 		lblLast.setForeground(Color.WHITE);
 		lblLast.setBounds(120, 248, 150, 20);
 		lblLast.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblAge.setText("Enter players age: ");
+		lblAge.setText("Enter players age:");
 		lblAge.setForeground(Color.WHITE);
 		lblAge.setBounds(120, 298, 150, 20);
 		lblAge.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblWeight.setText("Enter players Weight ");
+		lblWeight.setText("Enter players weight:");
 		lblWeight.setForeground(Color.WHITE);
 		lblWeight.setBounds(120, 348, 150, 20);
 		lblWeight.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblGamesPlayed.setText("Enter Games played:");
+		lblGamesPlayed.setText("Enter # of games played:");
 		lblGamesPlayed.setForeground(Color.WHITE);
 		lblGamesPlayed.setBounds(120, 398, 150, 20);
 		lblGamesPlayed.setHorizontalAlignment(SwingConstants.RIGHT);
 		
-		lblGamesWon.setText("Enter Games Won");
+		lblGamesWon.setText("Enter # of games won:");
 		lblGamesWon.setForeground(Color.WHITE);
 		lblGamesWon.setBounds(120, 448, 150, 20);
 		lblGamesWon.setHorizontalAlignment(SwingConstants.RIGHT);
@@ -141,7 +141,7 @@ public class enterPlayers extends GUI{
 		lblRushingYds.setBounds(120, 548, 150, 20);
 		lblRushingYds.setHorizontalAlignment(SwingConstants.RIGHT);
 
-		lblPlayerTeam.setText("Enter team:");
+		lblPlayerTeam.setText("Enter team name:");
 		lblPlayerTeam.setForeground(Color.WHITE);
 		lblPlayerTeam.setBounds(120, 598, 150, 20);
 		lblPlayerTeam.setHorizontalAlignment(SwingConstants.RIGHT);
