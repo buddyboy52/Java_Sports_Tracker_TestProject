@@ -82,7 +82,7 @@ public class enterPlayers extends GUI{
 		enterPlayerPanel.add(lblRushingYds);
 
 		
-		lblTitle.setText("Player Entry");
+		lblTitle.setText("Team Entry");
 
 		// ---------------- enterPlayerPanel Customization ---------------- \\
 		enterPlayerPanel.setBackground(Color.RED);
