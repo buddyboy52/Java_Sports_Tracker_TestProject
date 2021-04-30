@@ -2,28 +2,36 @@ import java.io.*;
 import java.io.IOException;
 
 public class writeTeams {
+
 	
-	File teamData = new File("teamsData");
-	
-	public static void writeFile() {
+	public static void writeFile(Teams team) {
 		
 		try {
-			
-			FileWriter teamWriter = new FileWriter("teamsData");
-			
-			
-		} catch (IOException e) {
-			
-			
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			
-		}
 
-		
+			// File writer to write data to 
+			FileWriter writeFile = new FileWriter("teamsData.txt");
+			
+			// send data to string variables
+			String teamStats = team.displayTeamStatistics();
+			String team_data = team.toString();
+			
+			// Write and close data to file 
+			writeFile.write(teamStats);
+			writeFile.write("\n-------------\n");
+			writeFile.write(team_data);
+			writeFile.close();
+
+			System.out.println("Successfully Wrote!");
+			
+			
+			
+		}catch(IOException e) {
+			//catch errors and display error message
+			System.out.println("An error has ocurred");
+			e.printStackTrace();
+
+		}
 		
 	}
 	
-		
-
 }
