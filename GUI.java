@@ -5,11 +5,10 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 import javax.swing.border.*;
 
-
-public class GUI extends JFrame{
-	
-	
+public class GUI extends JFrame
+{	
 	static enterPlayers players = new enterPlayers();
+	static enterTeams teams = new enterTeams();
 	static viewItems viewPanel = new viewItems();
 	
 	// Create a JFrame object
@@ -19,7 +18,7 @@ public class GUI extends JFrame{
 	public static JPanel welcomePanel = new JPanel();
 		
 	// Create our JCombobox for the list of teams entered
-	public static JComboBox temaList = new JComboBox();
+	public static JComboBox teamList = new JComboBox();
 	
 	// Create our labels
 	public static JLabel lblTitle = new JLabel();
@@ -31,7 +30,7 @@ public class GUI extends JFrame{
 	public static JButton btnExit = new JButton();
 	
 	// Create our font for the title
-	public static Font titleFont = new Font("Times Roman", Font.BOLD, 40);
+	public static Font titleFont = new Font("Times New Roman", Font.BOLD, 40);
 	
 	// Create a border for the title
 	public static Border titleBorder = BorderFactory.createLineBorder(Color.BLACK, 10);
@@ -40,14 +39,12 @@ public class GUI extends JFrame{
 	public static Dimension buttonDimension = new Dimension(100, 50);
 	
 	// --------------------------------------------------------------- \\
-	
 	// Declare our constants
 	public static final int WIDTH = 600;
 	public static final int HEIGHT = 800;
 	
-	
-	public static void createFrame() {
-		
+	public static void createFrame()
+	{
 		// ---------------- Frame Customization ---------------- \\
 		
 		// Set the frame size
@@ -107,26 +104,33 @@ public class GUI extends JFrame{
 		btnView.setBackground(Color.WHITE);
 		btnExit.setBackground(Color.WHITE);
 		
-		btnPlayerSelec.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				
-				
-				//players.create();
+		btnTeamSelec.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				teams.createTeam();
+			}
+		});
+
+		btnPlayerSelec.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
 				players.createPlayer();
+			}
+		});
+
+		btnView.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
 				
 			}
 		});
-		
-		//players.create();
-		
 	}
 	
-	public static void main(String[] args) {
-		
+	public static void main(String[] args)
+	{
 		createFrame();
-		
 	}
-	
-
-
 }
