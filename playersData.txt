@@ -1,16 +1,16 @@
-Billy Bob is a football player.
+Andrew McCloud is a football player.
 Here are some statistics:
 Win percent: 83.33%
-Average touchdowns: 1.6666666666666667
-Average rushing yards: 103.33333333333333
+Average touchdowns: 0.6666666666666666
+Average rushing yards: 83.33333333333333
 
 -------------
-Billy Bob
+Andrew McCloud
 Sport: Football
-Team: New-England Patiots
-Age: 20
-Weight (lbs): 250
-Games played: 6
-Games won: 5
-Touchdowns: 10
-Rushing yards: 620
+Team: Broncos
+Age: 21
+Weight (lbs): 200
+Games played: 12
+Games won: 10
+Touchdowns: 8
+Rushing yards: 1000

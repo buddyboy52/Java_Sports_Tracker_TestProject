@@ -1,0 +1,8 @@
+Win percent: 100.00%
+Average touchdowns: 1.1
+Average rushing yards: 50.0
+
+-------------
+Team Name: Broncos
+Team Rank: 1
+Player Count: 22
